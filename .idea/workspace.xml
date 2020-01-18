@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99278b1d-c10a-4a76-a9c1-40ab82dee0e4" name="Default Changelist" comment="" />
+    <list default="true" id="99278b1d-c10a-4a76-a9c1-40ab82dee0e4" name="Default Changelist" comment="Карты раздаются, игрок может совершать ходы, создан фундамент. В ближайших планах - начать разбираться с графическим интерфейсом">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AIintellect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HumanIntellect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intellect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Names.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Suit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Value.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowApp2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Window-BlackJack.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WindowApp2/WindowApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dealer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dealer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Desk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Init.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Init.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,11 +28,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Phillippko &lt;phillippko@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WPzQkQ3E9ASAIOkN2QMIETbSvq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +50,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -32,15 +61,62 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Window" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Window" />
-      <module name="WindowApp2" />
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Init" />
+      <module name="Window-BlackJack" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="Window-BlackJack" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="Window-BlackJack" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -70,33 +146,66 @@
       <updated>1579066003300</updated>
       <workItem from="1579066006078" duration="1975000" />
       <workItem from="1579285503783" duration="6269000" />
+      <workItem from="1579329346036" duration="11255000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Карты раздаются, игрок может совершать ходы, создан фундамент. В ближайших планах - начать разбираться с графическим интерфейсом" />
+    <option name="LAST_COMMIT_MESSAGE" value="Карты раздаются, игрок может совершать ходы, создан фундамент. В ближайших планах - начать разбираться с графическим интерфейсом" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="294" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579066772931">
+    <state x="294" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579382269054">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="294" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1579066772931" />
-    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1579126319091">
+    <state x="294" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1579382269054" />
+    <state x="645" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1579380545302">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1579126319091" />
-    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1579126319091">
+    <state x="645" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1579380545302" />
+    <state x="594" y="117" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579329718826">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1579126319091" />
-    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1579126319091">
+    <state x="594" y="117" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1579329718826" />
+    <state x="460" y="100" key="CommitChangelistDialog2" timestamp="1579390116697">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1579126319091" />
-    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1579126319091">
+    <state x="460" y="100" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1579390116697" />
+    <state width="1620" height="269" key="GridCell.Tab.0.bottom" timestamp="1579390116715">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1579126319091" />
+    <state width="1620" height="269" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1579390116715" />
+    <state width="1620" height="269" key="GridCell.Tab.0.center" timestamp="1579390116715">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1620" height="269" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1579390116715" />
+    <state width="1620" height="269" key="GridCell.Tab.0.left" timestamp="1579390116715">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1620" height="269" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1579390116715" />
+    <state width="1620" height="269" key="GridCell.Tab.0.right" timestamp="1579390116715">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1620" height="269" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1579390116715" />
+    <state width="1620" height="332" key="GridCell.Tab.1.bottom" timestamp="1579382439194">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1620" height="332" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1579382439194" />
+    <state width="1620" height="332" key="GridCell.Tab.1.center" timestamp="1579382439194">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1620" height="332" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1579382439194" />
+    <state width="1620" height="332" key="GridCell.Tab.1.left" timestamp="1579382439194">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1620" height="332" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1579382439194" />
+    <state width="1620" height="332" key="GridCell.Tab.1.right" timestamp="1579382439194">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1620" height="332" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1579382439194" />
     <state x="536" y="330" key="com.intellij.ide.util.TipDialog" timestamp="1579329356270">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -105,9 +214,13 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="481" y="231" width="700" height="530" key="recent.locations.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1579294039842" />
-    <state x="546" y="125" key="refactoring.ChangeSignatureDialog" timestamp="1579294580414">
+    <state x="546" y="125" key="refactoring.ChangeSignatureDialog" timestamp="1579330645945">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="546" y="125" key="refactoring.ChangeSignatureDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1579294580414" />
+    <state x="546" y="125" key="refactoring.ChangeSignatureDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1579330645945" />
+    <state x="503" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1579386849415">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="503" y="221" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1579386849415" />
   </component>
 </project>
