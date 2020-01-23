@@ -1,17 +1,19 @@
 import java.util.Scanner;
 
 public class Player {
-    public int money;
-    public int bet;
+    public int money = Table.startMoney;
     boolean real;
     Intellect intellect;
     Hand hand;
     String name;
-    Player(boolean real){
+
+    Player(boolean real)
+    {
         this.real = real;
         if(!real) {
+
             this.intellect = new AIintellect();
-            this.name =  Names.genName().toString() + Surnames.genSurname().toString();
+            this.name =  Names.genName().toString() + " " + Surnames.genSurname().toString();
         }
         else {
             this.intellect = new HumanIntellect();
@@ -20,11 +22,13 @@ public class Player {
         }
         this.hand = new Hand();
     }
+
     public void move() {
         intellect.choose(this);
     }
 
     public void printHand() {
+        System.out.print(this.name + ": \n" );
         this.hand.print();
     }
 }

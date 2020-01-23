@@ -5,15 +5,22 @@ public class HumanIntellect extends Intellect {
     {
         Scanner sc = new Scanner(System.in);
         String input = "";
-        while(input!="PASS") {
+        player.hand.bet = Table.minBet;
+        while(!input.equals("PASS")) {
             player.printHand();
-            System.out.println("DEAL - take card, PASS - pass move, ...");
+            System.out.printf(" money: %d, bet: %d, score: %d \n", player.money, player.hand.bet, player.hand.score);
+            System.out.println("DEAL - take card, PASS - pass move, DOUBLE - double bet...");
             input = sc.nextLine().toUpperCase();
             switch (input) {
                 case "DEAL":
                     Dealer.dealCard(player);
-
                     break; //ДОБАВИТЬ МЕХАНИЗМ СТАВОК
+                case "DOUBLE":
+                    if(player.money >= player.hand.bet*2)
+                    player.hand.bet *= 2;
+                    else
+                        System.out.println("Not enough money");
+                    break;
             }
             if(player.hand.score  > 21) {
                 System.out.println("Score is more than 21. You lose :(");

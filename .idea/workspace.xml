@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99278b1d-c10a-4a76-a9c1-40ab82dee0e4" name="Default Changelist" comment="Карты раздаются, игрок может совершать ходы, создан фундамент. В ближайших планах - начать разбираться с графическим интерфейсом">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AIintellect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HumanIntellect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Intellect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Names.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Suit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Value.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="99278b1d-c10a-4a76-a9c1-40ab82dee0e4" name="Default Changelist" comment="Передумал делать графику, добавил интеллект дилеру, исправил формат вывода руки, очков и т.д, добавил систему ставок">
+      <change afterPath="$PROJECT_DIR$/src/DealerIntellect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowApp2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Window-BlackJack.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WindowApp2/WindowApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AIintellect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AIintellect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Dealer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dealer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Desk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Table.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HumanIntellect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HumanIntellect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Init.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Init.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Window.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,53 +67,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="Window-BlackJack" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="Window-BlackJack" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -146,8 +92,24 @@
       <updated>1579066003300</updated>
       <workItem from="1579066006078" duration="1975000" />
       <workItem from="1579285503783" duration="6269000" />
-      <workItem from="1579329346036" duration="11255000" />
+      <workItem from="1579329346036" duration="12194000" />
+      <workItem from="1579509497191" duration="1270000" />
+      <workItem from="1579605068211" duration="4019000" />
+      <workItem from="1579689637684" duration="469000" />
+      <workItem from="1579690163562" duration="603000" />
+      <workItem from="1579690814653" duration="6000" />
+      <workItem from="1579692541490" duration="592000" />
+      <workItem from="1579693718056" duration="7289000" />
+      <workItem from="1579753076349" duration="1950000" />
     </task>
+    <task id="LOCAL-00001" summary="Карты раздаются, игрок может совершать ходы, создан фундамент. В ближайших планах - начать разбираться с графическим интерфейсом">
+      <created>1579390339755</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579390339756</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +117,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Карты раздаются, игрок может совершать ходы, создан фундамент. В ближайших планах - начать разбираться с графическим интерфейсом" />
-    <option name="LAST_COMMIT_MESSAGE" value="Карты раздаются, игрок может совершать ходы, создан фундамент. В ближайших планах - начать разбираться с графическим интерфейсом" />
+    <MESSAGE value="Передумал делать графику, добавил интеллект дилеру, исправил формат вывода руки, очков и т.д, добавил систему ставок" />
+    <option name="LAST_COMMIT_MESSAGE" value="Передумал делать графику, добавил интеллект дилеру, исправил формат вывода руки, очков и т.д, добавил систему ставок" />
   </component>
   <component name="WindowStateProjectService">
     <state x="294" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579382269054">
@@ -170,46 +133,60 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="594" y="117" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1579329718826" />
-    <state x="460" y="100" key="CommitChangelistDialog2" timestamp="1579390116697">
+    <state x="164" y="44" width="1340" height="809" key="CommitChangelistDialog2" timestamp="1579755048880">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="460" y="100" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1579390116697" />
-    <state width="1620" height="269" key="GridCell.Tab.0.bottom" timestamp="1579390116715">
+    <state x="164" y="44" key="CommitChangelistDialog2/0.0.1680.1010/-1920.0.1536.824@0.0.1680.1010" timestamp="1579755048880" />
+    <state x="196" y="69" width="1340" height="809" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1579390416148" />
+    <state width="1637" height="269" key="GridCell.Tab.0.bottom" timestamp="1579755021162">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1620" height="269" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1579390116715" />
-    <state width="1620" height="269" key="GridCell.Tab.0.center" timestamp="1579390116715">
+    <state width="1637" height="269" key="GridCell.Tab.0.bottom/0.0.1680.1010/-1920.0.1536.824@0.0.1680.1010" timestamp="1579755021162" />
+    <state width="1620" height="331" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1579740250354" />
+    <state width="1637" height="269" key="GridCell.Tab.0.center" timestamp="1579755021161">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1620" height="269" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1579390116715" />
-    <state width="1620" height="269" key="GridCell.Tab.0.left" timestamp="1579390116715">
+    <state width="1637" height="269" key="GridCell.Tab.0.center/0.0.1680.1010/-1920.0.1536.824@0.0.1680.1010" timestamp="1579755021161" />
+    <state width="1620" height="331" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1579740250354" />
+    <state width="1637" height="269" key="GridCell.Tab.0.left" timestamp="1579755021161">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1620" height="269" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1579390116715" />
-    <state width="1620" height="269" key="GridCell.Tab.0.right" timestamp="1579390116715">
+    <state width="1637" height="269" key="GridCell.Tab.0.left/0.0.1680.1010/-1920.0.1536.824@0.0.1680.1010" timestamp="1579755021161" />
+    <state width="1620" height="331" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1579740250354" />
+    <state width="1637" height="269" key="GridCell.Tab.0.right" timestamp="1579755021161">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1620" height="269" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1579390116715" />
-    <state width="1620" height="332" key="GridCell.Tab.1.bottom" timestamp="1579382439194">
+    <state width="1637" height="269" key="GridCell.Tab.0.right/0.0.1680.1010/-1920.0.1536.824@0.0.1680.1010" timestamp="1579755021161" />
+    <state width="1620" height="331" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1579740250354" />
+    <state width="1620" height="331" key="GridCell.Tab.1.bottom" timestamp="1579740250354">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1620" height="332" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1579382439194" />
-    <state width="1620" height="332" key="GridCell.Tab.1.center" timestamp="1579382439194">
+    <state width="1620" height="331" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1579740250354" />
+    <state width="1620" height="331" key="GridCell.Tab.1.center" timestamp="1579740250354">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1620" height="332" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1579382439194" />
-    <state width="1620" height="332" key="GridCell.Tab.1.left" timestamp="1579382439194">
+    <state width="1620" height="331" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1579740250354" />
+    <state width="1620" height="331" key="GridCell.Tab.1.left" timestamp="1579740250354">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1620" height="332" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1579382439194" />
-    <state width="1620" height="332" key="GridCell.Tab.1.right" timestamp="1579382439194">
+    <state width="1620" height="331" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1579740250354" />
+    <state width="1620" height="331" key="GridCell.Tab.1.right" timestamp="1579740250354">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1620" height="332" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1579382439194" />
-    <state x="536" y="330" key="com.intellij.ide.util.TipDialog" timestamp="1579329356270">
+    <state width="1620" height="331" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1579740250354" />
+    <state x="432" y="239" key="Vcs.Push.Dialog.v2" timestamp="1579390489759">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="536" y="330" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1579329356270" />
+    <state x="432" y="239" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1579390489759" />
+    <state x="536" y="330" key="com.intellij.ide.util.TipDialog" timestamp="1579753126116">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="536" y="330" key="com.intellij.ide.util.TipDialog/0.0.1680.1010/-1920.0.1536.824@0.0.1680.1010" timestamp="1579753126116" />
+    <state x="536" y="330" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1579693781100" />
+    <state x="649" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579390428968">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="649" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1010@0.0.1680.1010" timestamp="1579390428968" />
     <state x="481" y="231" width="700" height="530" key="recent.locations.popup" timestamp="1579294039842">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -218,9 +195,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="546" y="125" key="refactoring.ChangeSignatureDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1579330645945" />
-    <state x="503" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1579386849415">
+    <state x="503" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1579753458256">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="503" y="221" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1579386849415" />
+    <state x="503" y="221" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010/-1920.0.1536.824@0.0.1680.1010" timestamp="1579753458256" />
+    <state x="503" y="221" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1579709637734" />
   </component>
 </project>
