@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Dealer extends Player{
 
     Dealer(boolean real) {
@@ -14,5 +12,14 @@ public class Dealer extends Player{
         Card card = new Card();
         player.hand.add(card);
         player.hand.addScore(card);
+    }
+
+    public static class DealerIntellect extends AIintellect
+    {
+        void choose(Player player)
+        {
+            while(player.hand.score < 17)
+                dealCard(player);
+        }
     }
 }
