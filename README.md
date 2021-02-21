@@ -1,2 +1,2 @@
-# WindowBlackJack
- Attempts to make my first own project to train Java
+# BlackJack
+ First very own small project to practice Java
